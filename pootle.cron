@@ -1,0 +1,8 @@
+# Cron jobs for Pootle
+
+# 3rd party extensions
+15 2     * * *     root   /home/pootle/scripts/bin/build-language-pack 2>&1 >/tmp/build-all.log
+0 9,12,15,18      * * *     root   /home/pootle/scripts/bin/update-all-extensions 2>&1 >/tmp/update-all-extensions.log
+
+# Backup
+0 3      * * *     root   /home/pootle/scripts/bin/backup-database >/dev/null 2>&1
