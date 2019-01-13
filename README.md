@@ -1,10 +1,10 @@
 Pootle+Serge Docker Container
 =======================
 
-Fork of https://github.com/1drop/pootle with an updated version of [Pootle](https://pootle.translatehouse.org/) and integrated [Serge](https://serge.io/).
+Fork of https://github.com/1drop/pootle with an updated version of Pootle and integrated Serge based on https://github.com/evernote/serge-dockerfiles.
 
-Pootle is a Community localization server - Get your community translating your software into their languages.
-Serge is a Free, Open-Source Solution for Continuous Localization
+- [Pootle](https://pootle.translatehouse.org/) is a Community localization server - Get your community translating your software into their languages.  
+- [Serge](https://serge.io/) is a Free, Open-Source Solution for Continuous Localization
 
 ## Environment Variables:
 
